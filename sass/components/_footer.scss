@@ -1,0 +1,28 @@
+//MOB AND GENERAL
+
+.footer_back {
+    background-color: #300d44;
+    padding: 20px;
+    text-align: center;
+    height: 190px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-bottom: 85px;
+  }
+
+  .footer{
+    height: 150px;
+  }
+
+  //TABLET
+  @media screen and (min-width: 768px) { 
+  .footer_back {
+    height: 80px;
+  }
+  }
+
+  //DESKTOP
+
+  @media screen and (min-width: 1200px) {
+    
+  }

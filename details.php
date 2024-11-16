@@ -1,7 +1,8 @@
 <!DOCTYPE html> 
 <html lang="en">
 <?php
-    $connect = new mysqli('localhost','root','root','Simpsons');
+
+    require_once('includes/connect.php');
 
 
     $query = 'SELECT * FROM employees, jobs WHERE job_id = jobs.id AND employees.id='.$_GET['id'];

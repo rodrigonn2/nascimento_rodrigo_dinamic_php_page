@@ -1,0 +1,40 @@
+//MOBILE AND GENERAL
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:	#f8db27;
+    font-family: 'poppins';
+    color: #2f64d6;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+ 
+    background-color:	#00957C;
+    color: #ffffff;
+    transition: ease-in-out 0.2s;
+ 
+}
+
+
+//TABLET
+@media screen and (min-width: 768px) { 
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}
+
+//DESKTOP
+@media screen and (min-width: 1200px) {
+
+    .btn {
+        margin-top: 30px;
+    }
+}
