@@ -1,0 +1,20 @@
+
+@mixin center(){
+      display:flex;
+      align-items:center;
+      justify-content:center;
+}
+
+
+//fonts
+
+@mixin fontFace($font-family, $file-path) {
+      @font-face {
+          font: {
+              family: $font-family;
+              weight: normal;
+              style: normal;
+          }
+         
+      }
+  }

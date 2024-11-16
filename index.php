@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php
-    $connect = new mysqli('localhost','root','root','Simpsons');
+   require_once('includes/connect.php');
 
 
     $query = 'SELECT employees.id, fname, lname, image FROM employees WHERE id = employees.id ORDER BY employees.id ASC';
@@ -38,7 +38,7 @@
 while($row = mysqli_fetch_array($results)) {
 
     echo ' <div class="person col-start-1 col-end-4">
-        <img src="images/'.$row['image'].'" class="people_img" alt="employee name" />
+        <a href="details.php?id='.$row['id'].'"><img src="images/'.$row['image'].'" class="people_img" alt="employee name" /></a>
         <h2 class="name_h2">'.$row['fname'].' '.$row['lname'].'</h2>
      <a href="details.php?id='.$row['id'].'" class="btn">Know me</a>  </div>';
 }

@@ -1,0 +1,48 @@
+//MOBILE AND GENERAL
+
+.k_logo{
+    max-width: 100px;
+    align-items: center;
+  
+  }
+  
+  .k_logo_footer{
+    max-width: 90px;
+    margin-top: -11px;
+    margin-left: -14px;
+  
+  }
+  
+  .people_img{
+    width: 100px;
+    align-items: center;
+    filter: grayscale(100%);
+    height: auto;
+    margin-top: 30px;
+    border: #ffffff solid 3px;
+  }
+  
+  .people_img:hover{
+    filter: grayscale(0%);  
+  }
+
+  .logo{
+    width: 220px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 100px;
+    }
+  
+
+  //TABLET
+  @media screen and (min-width: 768px) { 
+
+    .logo{
+        width: 290px;
+      }
+  }
+
+  //DESKTOP
+  @media screen and (min-width: 1200px) {
+    
+  }
