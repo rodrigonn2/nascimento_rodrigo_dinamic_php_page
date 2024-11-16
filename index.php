@@ -20,14 +20,13 @@
 <body>
 <header>
         <section class="col-span-full">
-                <div class="logo"><span class="hiring_text">We're</span> <img src="images/Krusty_logo.png" class="k_logo" alt="Krusty Logo"><span class="hiring_text">Hiring</span></div>
+        <h2 class="hidden">Header Hiring</h2>
+                <div class="logo"><span class="hiring_text">We're</span> <img src="images/Krusty_logo.png" class="k_logo" alt="Krusty ilustration Logo"><span class="hiring_text">Hiring</span></div>
         </section>
 </header>
 <section class="col-span-full hero_box">
     <h2 class="hidden">Hero Image</h2>
     <div class="box_hero_text col-span-full m-col-start-1 m-col-end-12 l-col-start-1 m-col-end-12"><h2 class="h2_hero">Meet <span class="krusty_spam">Krusty</span> employees</h2></div>
-
-    </div>
 </section>
 
 <section class="grid-con pic_background">
@@ -40,7 +39,7 @@ while($row = mysqli_fetch_array($results)) {
     echo ' <div class="person col-start-1 col-end-4">
         <a href="details.php?id='.$row['id'].'"><img src="images/'.$row['image'].'" class="people_img" alt="employee name" /></a>
         <h2 class="name_h2">'.$row['fname'].' '.$row['lname'].'</h2>
-     <a href="details.php?id='.$row['id'].'" class="btn">Know me</a>  </div>';
+     <a href="details.php?id='.$row['id'].'" class="btn">Know me</a></div>';
 }
 ?>
 
