@@ -1,6 +1,6 @@
 
 # # nascimento_rodrigo_dinamic_php_pages Assignment
-This is the repository for the Dinamic PHP pages assignment - Simpsons Employees website.
+This is the repository for the Dinamic PHP Pages Assignment - Simpsons Employees website.
 
 ### Content
 * HTML pages (home, details.php)
