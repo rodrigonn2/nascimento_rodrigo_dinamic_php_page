@@ -21,13 +21,14 @@
 <body>
 <header>
         <section class="col-span-full">
+        <h2 class="hidden">Header Hiring</h2>
                 <div class="logo"><span class="hiring_text">We're</span> <a href="index.php"><img src="images/Krusty_logo.png" class="k_logo" alt="Krusty Logo"></a><span class="hiring_text">Hiring</span></div>
         </section>
 </header>
 
 <section class="col-span-full employee_box">
     
-    <h2 class="hidden">Hero Image</h2>
+    <h2 class="hidden">Employee info</h2>
     <?php
 
 while($row = mysqli_fetch_array($results)) {
